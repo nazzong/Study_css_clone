@@ -1,0 +1,402 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+}
+
+.main__btn {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .main__btn button {
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main .main__btn button:hover {
+  background-color: #00766d;
+  color: white;
+  transition: 0.2s;
+}
+
+.section1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section1 .section1__box {
+  width: calc(100% / 3);
+  height: 100%;
+  background-color: #c7c7c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section1 .section1__box:nth-child(2) {
+  background-color: black;
+  color: white;
+}
+
+.section1 .section1__box .section1__box__text1box {
+  text-align: center;
+}
+
+.section1 .section1__box .section1__box__text1box .section1__box__text1 {
+  font-size: 16px;
+  margin: 100px 0 0;
+}
+
+.section1 .section1__box .section1__box__text1box h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section1 .section1__box img {
+  width: 200px;
+}
+
+.section1 .section1__box .section1__box__text2box {
+  text-align: center;
+}
+
+.section1 .section1__box .section1__box__text2box .section1__box__text2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section1 .section1__box .section1__box__text2box .section1__box__text3 {
+  text-align: center;
+  line-height: 1.3;
+  margin: 10px 0 20px;
+}
+
+.section1 .section1__box button {
+  border: none;
+  width: 150px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: #00766d;
+  color: white;
+  margin: 0 0 100px;
+}
+
+.section1 .section1__box button:hover {
+  border: 1px solid #00766d;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./screenshot/middle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 .section2__textbox {
+  width: 50%;
+  padding-left: 165px;
+  color: white;
+}
+
+.section2 .section2__textbox .section2__textbox__title {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px 0px 55px;
+}
+
+.section2 .section2__textbox .section2__textbox__content {
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.section2 .section2__textbox .section2__textbox__btn {
+  margin-top: 40px;
+}
+
+.section2 .section2__textbox .section2__textbox__btn button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.section2 .section2__textbox .section2__textbox__btn button:first-child {
+  background-color: transparent;
+  border: 1px solid #00766d;
+  margin-right: 20px;
+}
+
+.section2 .section2__textbox .section2__textbox__btn button:first-child:hover {
+  background-color: #00766d;
+}
+
+.section2 .section2__textbox .section2__textbox__btn button:last-child {
+  background-color: #00766d;
+  border: 1px solid #00766d;
+}
+
+.section2 .section2__textbox .section2__textbox__btn button:last-child:hover {
+  background-color: transparent;
+}
+
+.section3 {
+  padding: 100px 0 100px 225px;
+  overflow-x: hidden;
+}
+
+.section3 h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section3 .section3__btn {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0 25px;
+}
+
+.section3 p {
+  margin-right: 30px;
+}
+
+.section3 .section3__slider .section3__slider__img {
+  display: flex;
+  flex-direction: row;
+}
+
+.section3 .section3__slider .section3__slider__img img {
+  width: 436px;
+  height: 480px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.section3 .section3__slider .section3__slider__bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.section3 .section3__slider .section3__slider__bar div {
+  width: 200px;
+  height: 10px;
+  background-color: #ededed;
+  margin-top: 40px;
+}
+
+.section3 .section3__slider .section3__slider__bar div:first-child {
+  background-color: #00766d;
+}
+
+.footer {
+  background-color: #272728;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer__box {
+  width: 1350px;
+}
+
+.footer .footer__box .footer__top {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer .footer__box .footer__middle {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer .footer__box .footer__middle .footer__middle__left,
+.footer .footer__box .footer__middle .footer__middle__right {
+  width: calc(100% / 3);
+}
+
+.footer .footer__box .footer__middle .footer__middle__left div {
+  margin-bottom: 10px;
+}
+
+.footer .footer__box .footer__middle .footer__middle__left div:last-child {
+  margin-bottom: 0px;
+}
+
+.footer .footer__box .footer__middle .footer__middle__right div {
+  margin-bottom: 20px;
+}
+
+.footer .footer__box .footer__middle .footer__middle__right div:nth-child(2) {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 10px;
+}
+
+.footer .footer__box .footer__middle .footer__middle__right button {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #00766d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer .footer__box .footer__middle .footer__middle__right button:hover {
+  border: 1px solid #00766d;
+  color: white;
+  background-color: transparent;
+}
+
+.footer .footer__box .footer__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #c7c7c7;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+.footer .footer__box .footer__bottom div {
+  width: calc(100% / 3);
+}
+
+.footer .footer__box .footer__bottom div:nth-child(2) {
+  text-align: center;
+}
+
+.footer .footer__box .footer__bottom div:nth-child(3) {
+  text-align: end;
+}
+
+.footer .footer__box .footer__bottom div:nth-child(3) .fab {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.footer .footer__box .footer__bottom div:nth-child(3) .fab:hover {
+  color: #00766d;
+}
+
+/* response */
+@media (max-width: 800px) {
+  .main .main__btn button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .section1 {
+    height: auto;
+  }
+
+  .section1 .section1__box {
+    width: 100%;
+    height: 700px;
+  }
+
+  .section2 .section2__textbox:first-child {
+    width: 0%;
+  }
+
+  .section2 .section2__textbox {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section2 .section2__textbox .section2__textbox__btn button:first-child {
+    margin-right: 10px;
+  }
+
+  .section3 {
+    padding: 100px 0px 100px 15px;
+  }
+
+  .section3 .section3__slider .section3__slider__img img {
+    width: 3420px;
+    height: 352px;
+  }
+
+  .section3 .section3__slider .section3__slider__bar {
+    padding-right: 15px;
+  }
+
+  .section3 .section3__slider .section3__slider__bar div {
+    width: calc(100% / 4);
+  }
+
+  .footer .footer__box {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .footer .footer__box .footer__middle .footer__middle__left,
+  .footer .footer__box .footer__middle .footer__middle__right {
+    width: 100%;
+  }
+
+  .footer .footer__box .footer__middle .footer__middle__left {
+    margin-bottom: 10px;
+  }
+
+  .footer .footer__box .footer__bottom div {
+    width: 100%;
+  }
+
+  .footer .footer__box .footer__bottom div:nth-child(2),
+  .footer .footer__box .footer__bottom div:nth-child(3) {
+    text-align: start;
+  }
+
+  .footer .footer__box .footer__bottom div:nth-child(2) {
+    margin: 10px 0;
+  }
+
+  .footer .footer__box .footer__bottom div:nth-child(3) .fab {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+}
